@@ -6,7 +6,7 @@ It's done using the following technologies
 - DevExpress
 - SQL SERVER
 
-![Page1](Clinical-Dashboard/Page1.png)
+![image alt](https://github.com/gamal21/Clinical-Intervention-DevExpress-Dashboard/blob/dda33a493cb48cba007eceef0c5365cd3c01c88d/Clinical-Dashboard/Page1.PNG)
 
 
 
