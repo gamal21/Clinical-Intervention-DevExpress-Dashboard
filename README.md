@@ -1,5 +1,3 @@
-# Clinical-Intervention-DevExpress-Dashboard
-
 # Clinical Intervention Dashboard
 
 A **Clinical Intervention Dashboard** built with **DevExpress** and **SQL Server**.  
