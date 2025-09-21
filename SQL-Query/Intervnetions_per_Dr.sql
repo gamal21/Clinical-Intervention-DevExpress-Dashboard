@@ -23,7 +23,7 @@ SELECT
            COUNT(CASE WHEN Category IN ('Category D', 'Category E', 'Category F', 'Category G', 'Category H', 'Category I') THEN 1 END) as [Category D,E,F,G,H,I]
 
 
-FROM clinicalinterventionreport WITH (NOLOCK)
+FROM Clinicalview WITH (NOLOCK)
 WHERE StaffName NOT IN ('ADMIN', 'Admin') and
 date between @from and @to
 GROUP BY StaffName

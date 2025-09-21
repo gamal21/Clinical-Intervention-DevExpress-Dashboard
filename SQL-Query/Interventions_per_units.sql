@@ -6,7 +6,7 @@ SELECT
         2
     ) AS percentage_of_total
 	
-FROM clinicalinterventionreport
+FROM Clinicalview
 where date between @from and @to
 GROUP BY nurse
 ORDER BY category_count desc;

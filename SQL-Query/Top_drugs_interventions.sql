@@ -1,5 +1,5 @@
 select top 5  DrugName, COUNT(Sys_key) AS category_count
-FROM GetClinicalIntervnetions22
+FROM Clinicalview
 where DrugName is not null
 and 
 Date between @from and @to

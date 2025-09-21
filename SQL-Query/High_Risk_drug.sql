@@ -1,7 +1,7 @@
 select   t.trade_name ,count(g.Sys_key) as No
-from trade_drug t inner join GetClinicalIntervnetions22 g
+from Drug_table t inner join Clinicalview g
 
-on t.trade_code = g.Drug_code
+on t.Drug_code = g.Drug_code
 
 where t.HighRisk = 1 
 and date between @from and @to

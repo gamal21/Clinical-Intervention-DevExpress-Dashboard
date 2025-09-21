@@ -35,7 +35,7 @@ SELECT
 
     COUNT(CASE WHEN RIGHT(category, 1) IN ('D', 'E', 'F', 'G', 'H', 'I') THEN 1 END) AS category_count
 
-FROM clinicalinterventionreport
+FROM Clinicalview
 WHERE [date] BETWEEN @from AND @to
 GROUP BY 
     speciality
